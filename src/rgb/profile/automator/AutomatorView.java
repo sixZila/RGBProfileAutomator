@@ -27,6 +27,8 @@ public class AutomatorView extends JFrame {
     public void initialize() {
         JPanel buttonPanel = new JPanel(new GridLayout());
         JPanel inputPanel = new JPanel(new SpringLayout());
+        
+        setTitle("Timing Distributor");
 
         nodesLabel = new JLabel("Number of Nodes (Total - 1): ");
         nodesField = new JTextField("0");
