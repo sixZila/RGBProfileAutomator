@@ -69,6 +69,10 @@ public class AutomatorView extends JFrame {
             return null;
         }
     }
+    
+    public void notifySuccess() {
+        JOptionPane.showMessageDialog(this, "Distribution Complete", "Notice", JOptionPane.INFORMATION_MESSAGE);
+    }
 
     public boolean checkInput() {
         String error = "";

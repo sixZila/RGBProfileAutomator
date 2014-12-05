@@ -27,6 +27,7 @@ public class AutomatorControlCenter {
                 Settings settings = UI.getFile();
                 if (settings != null) {
                     automator.automateTime(settings);
+                    UI.notifySuccess();
                 }
             }
         }
